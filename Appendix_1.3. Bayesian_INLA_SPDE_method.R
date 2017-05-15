@@ -236,7 +236,7 @@ require(gstat)
 #    3) Full spatial model              #
 #########################################
     # Settings
-    numRep  = 5#20
+    numRep  = 20
     numFold = 10
     matrixCov = as.matrix(covariate)
 
