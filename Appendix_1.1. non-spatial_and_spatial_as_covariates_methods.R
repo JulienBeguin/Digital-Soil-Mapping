@@ -2,7 +2,6 @@
 ######################################################################################
 # supplementaryCode.R                                                                #
 #    This code demonstrates how to use the following methods for the dataset "Meuse" #
-#        the dataset "Meuse".                                                        #
 #       1) Methods: random forests, boosted regression trees, weighted-KNN,          #
 #                   cubist, generalised linear (GLM) and additive (GAM) models       #
 #       2) Performing repeated k-fold cross-validation                               #
@@ -222,7 +221,7 @@ model <- rep(c("non-spatial","spatial only","cov + spatial"), 6)
 stat <- rep("Rsquared", 18)
 pseudoR2table <- data.frame(cbind(variable, method, model, stat, pseudoR2))
 
-#-- RSquare (example for ‘CovariatesOnly_RF_10fCV’ – just change the model name to get RSquare values for the other models/methods)
+#-- RSquare (example for Â‘CovariatesOnly_RF_10fCVÂ’ Â– just change the model name to get RSquare values for the other models/methods)
 data_stat <- CovariatesOnly_RF_10fCV$pred
 data_stat$fold <- substr(data_stat$Resample,1,6)
 data_stat$rep <- substr(data_stat$Resample,8,12)
