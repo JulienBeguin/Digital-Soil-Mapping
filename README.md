@@ -1,4 +1,4 @@
-# Digital-Soil-Mapping
+# R-codes for Digital Soil Mapping
 
 The following appendices contain all R-codes to run and replicate statistical analyses presented in the following paper:
 Beguin, J., Fuglstad, G-A., Mansuy, N, Paré, N. 2017. Predicting soil properties in the Canadian boreal forest with limited data: comparison of spatial and non-spatial statistical approaches. Geoderma, in press.
