@@ -7,7 +7,7 @@ Beguin, J., Fuglstad, G-A., Mansuy, N, Paré, D. 2017. Predicting soil propertie
 # Appendix 1.1:
 1) Methods: random forests, boosted regression trees, weighted-KNN, cubist, generalised linear (GLM) and additive (GAM) models       
 2) Performing repeated k-fold cross-validation                            
-3) Performing sensitivity analyses on model parameters (if needed)         
+3) Performing sensitivity analyses on model parameters       
 4) Mapping predicted values (example with random forests)         
 
 # Appendix 1.2:
